@@ -16,7 +16,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapGet("/", () => "Hello World!");
+app.MapControllerRoute(
+    "default",
+    "{controller=Home}/{action=Index}/{id?}");
 
 app.MapDefaultControllerRoute();
 app.MapRazorPages();
