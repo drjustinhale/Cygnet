@@ -4,6 +4,6 @@
 public class QueryStringGreeting : IGreeting {
 
     /// <summary>The greeting to use.</summary>
-    public string Greeting => "QueryStringGreeting";
+    public string Greet => "QueryStringGreeting";
 
 }

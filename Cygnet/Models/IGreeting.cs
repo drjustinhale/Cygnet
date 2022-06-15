@@ -4,7 +4,7 @@
     public interface IGreeting {
 
         /// <summary>The greeting to use.</summary>
-        string Greeting { get; }
+        string Greet { get; }
 
     }
 

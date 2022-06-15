@@ -4,6 +4,6 @@
 public class DefaultGreeting : IGreeting {
 
     /// <summary>The greeting to use.</summary>
-    public string Greeting => "DefaultGreeting";
+    public string Greet => "DefaultGreeting";
 
 }
